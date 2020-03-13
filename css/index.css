@@ -237,7 +237,7 @@ font-weight: bold;
   background: crimson;
 }
 #box6 {
-  background: forestgeen;
+  background: forestgreen;
 }
 #box7 {
   background: darkorchid;
@@ -310,6 +310,7 @@ footer nav {
   align-items: center;
   padding: 20px 2%;
   font-size: 14px;
+  
 }
 
 footer nav a {
