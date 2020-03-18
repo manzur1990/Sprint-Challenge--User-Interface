@@ -163,12 +163,15 @@ table {
 
 html,
 body {
-  height: 100%;
-  font-family: "Roboto", sans-serif;
   
   
+  font-family: "Roboto", sans-serif; 
 }
 
+.container{
+    width: 1000px;
+    margin:0 auto ;
+}
 
 h1,
 h2,
@@ -188,119 +191,68 @@ p {
     width: 50rem;
 }
 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  
-}
 
-.top-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-  margin-top: 1rem;
-  border-bottom: 1px dashed black;
-}
 
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
-  font-size: ;
-}
-.text-container {
-    padding: 0 0 0 5px;
-}
 h2 {
 font-size: 20px;
 font-weight: bold;
 } 
 
-
-/* BOX STYLE BEGINS */
-
-#box1 {
-  background: teal;
-}
-#box2 {
-  background: gold;
-}
-#box3 {
-  background: cadetblue;
-}
-#box4 {
-  background: coral;
+.mini-box {
+    height: 30%;
 }
 
-#box5 {
-  background: crimson;
-}
-#box6 {
-  background: forestgreen;
-}
-#box7 {
-  background: darkorchid;
-}
-#box8 {
-  background: hotpink;
-}
-#box9 {
-  background: indigo;
-}
-#box10 {
-  background: dodgerblue;
+
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+     
 }
 
-/* BOX STYLE ENDS */
+.aboutwrapper {
+    margin: 52px 0 0 0;
+    width: 45%;
+    border-bottom: 2px dotted
 
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
+.aboutwrapper p{
+line-height: 20px;
+margin-bottom: 2rem;
+margin-top: 2rem;
 }
 
-.middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.aboutwrapper button  {
+    padding: 10px;
+    width: 125px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 2px solid;
+    font-size: 15px;
+    font-weight: 700;
 }
 
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.aboutwrapper h2{
+    padding-top: 1rem;
 }
 
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
+.last-content{
+    
+    padding-bottom: 4rem;
+}
+.work {
+    padding-top: 4rem;
 }
 
-.bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
-}
 
 footer {
   width: 100%;
   background: black;
   height: 80px;
 }
-
 
 
 footer nav {
@@ -310,10 +262,15 @@ footer nav {
   align-items: center;
   padding: 20px 2%;
   font-size: 14px;
-  
+  margin-top: 2rem;
+
 }
 
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+.minibox {
+   padding-top: 2rem;
 }
